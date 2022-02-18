@@ -1,0 +1,12 @@
+body{
+    background-color: #d2d2d2;
+}
+section{
+    margin: 10% ;
+    padding: 10px;
+    background-color: rgba(172, 144, 236, 0.459);
+    border-radius: 5px;
+}
+#btn{
+    margin: 10px;
+}
