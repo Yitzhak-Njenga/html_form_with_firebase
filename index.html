@@ -18,12 +18,21 @@
         <link rel="stylesheet" href="./css/index.css">
         <title>Html form</title>
 
+    </head>
+
+    <body>
+
         <section>
 
-        <form action="">
+        <form action="" class="form-inline">
             <div class="mb-3">
                 <label for="exampleFormControlInput1" class="form-label">Fist Name</label>
-                <input type="email" class="form-control" id="name" required placeholder="">
+                <input type="text" class="form-control" id="name1" required placeholder="">
+                <label for="exampleFormControlInput1" class="form-label">Second Name</label>
+                <input type="text" class="form-control" id="name2" required placeholder="">
+                <label for="exampleFormControlInput1" class="form-label">Contact</label>
+                <input type="number" class="form-control" id="name" required placeholder="">
+                
                 <label for="exampleFormControlInput1" class="form-label" >Email address</label>
                 <input type="email" class="form-control" id="email" required placeholder="">
               </div>
@@ -33,7 +42,7 @@
 
                 <div class="d-grid gap-2 col-6 mx-auto" >
                     
-                    <button class="btn btn-primary" type="button" id="btn">Button</button>
+                    <button class="btn btn-primary" type="submit" onclick="onSubmit()" id="btn">Button</button>
                   </div>
               </div>
 
@@ -41,9 +50,11 @@
         </form>
 
         </section>
-    </head>
-    <body>
-        
+
+
+    <script src="https://www.gstatic.com/firebasejs/5.0.4/firebase.js"></script>
+    <script src="./js/firebase.js"></script>
+    <script src="./js/main.js"></script>   
     </body>
     </html>
 </body>
